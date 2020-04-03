@@ -1,9 +1,0 @@
-repositories {
-//    mavenCentral()
-    maven {url 'http://maven.aliyun.com/nexus/content/groups/public/'}
-}
-
-dependencies {
-    compile "org.springframework.cloud:spring-cloud-starter-zuul"
-    compile "org.springframework.cloud:spring-cloud-starter-eureka"
-}
